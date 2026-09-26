@@ -17,7 +17,7 @@ resource "kubernetes_config_map" "test_config" {
   }
 
   data = {
-    "welcome.txt" = "Hello from Atlantis and Terraform on Docker Desktop Kubernetes!"
+    "welcome.txt" = "Hello from Atlantis PR and Terraform on Docker Desktop Kubernetes!"
     "created_by"  = "Terraform"
   }
 }
